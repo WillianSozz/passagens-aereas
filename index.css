@@ -1,0 +1,309 @@
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(250, 245, 245);
+    position: relative;
+    margin: 0;
+}
+
+strong {
+    color: rgb(0, 0, 255);
+}
+
+hr {
+    box-shadow: 1px 1px 3px rgb(109, 109, 109);
+}
+
+/*********************************************/
+
+.top-barra {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.label-titulo-barra {
+    opacity:0;
+}
+
+.label-titulo {
+    padding-right: 5%;
+}
+
+.economize {
+    color: rgb(0, 0, 221);
+}
+
+.frase-top {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+}
+
+.top {
+    background-color: rgb(255, 238, 0);
+    border-radius: 10px;
+    padding: 1rem 5%;
+}
+
+.top-pesquisa {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.top-select {
+    width: 100%;
+    max-width: 200px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    color: rgb(109, 109, 109);
+    border-color: rgb(231, 231, 231);
+}
+
+
+.texto-pesquisa-origem{
+    width: 100%;
+    max-width: 200px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgb(109, 109, 109);
+    border-color: rgb(231, 231, 231);
+}
+
+.texto-pesquisa-destino{
+    width: 100%;
+    max-width: 200px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgb(109, 109, 109);
+    border-color: rgb(231, 231, 231);
+}
+
+.texto-pesquisa-inicio{
+    width: 100%;
+    max-width: 200px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgb(109, 109, 109);
+    border-color: rgb(231, 231, 231);
+}
+
+.texto-pesquisa-fim{
+    width: 100%;
+    max-width: 200px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgb(109, 109, 109);
+    border-color: rgb(231, 231, 231);
+    
+}
+
+.texto-pesquisa-invisivel {
+    width: 10px;
+    visibility: hidden;
+}
+
+.top-botao {
+    width: 100%;
+    max-width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: yellow;
+    border: hidden;
+    font-weight: bold;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.top-botao:hover {
+    background-color: rgb(0, 0, 221);
+    color: white;
+}
+
+.sub-top {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -1rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.sub-top-div1,
+.sub-top-div2,
+.sub-top-div3,
+.sub-top-div4 {
+    width: 100%;
+    max-width: 250px;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgb(109, 109, 109);
+    color: rgb(109, 109, 109);
+    cursor: pointer;
+    transition: 1s;
+    margin: 0.5rem;
+    transition-property: width;
+}
+
+.sub-top-div1:hover,
+.sub-top-div2:hover,
+.sub-top-div3:hover,
+.sub-top-div4:hover {
+    width: 100%;
+    max-width: 400px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 1s;
+    transition-property: width;
+}
+
+h3 {
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+}
+
+/*********************************************/
+
+.medio-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.medio-div-1 {
+    font-size: 2rem;
+    font-weight: 900;
+    width: 100%;
+    max-width: 500px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+}
+
+.medio-div-2 {
+    font-size: 2rem;
+    font-weight: 900;
+    width: 100%;
+    max-width: 500px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: right;
+}
+
+.medio-opcoes-div,
+.medio-opcoes-div2 {
+    margin: 1rem;
+}
+
+.img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.medio-opcoes1,
+.medio-opcoes2,
+.medio-opcoes3 {
+    text-align: center;
+    height: 350px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgb(109, 109, 109);
+    cursor: pointer;
+    transition: width 1s;
+    color: black;
+    margin: 0.5rem;
+}
+
+.medio-titulo-cidade {
+    font-size: 1.5rem;
+}
+
+.medio-preco {
+    font-size: 2rem;
+}
+
+/*********************************************/
+
+.footer {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.footer-titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-endereco {
+    color: gray;
+    margin: 1rem;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .top {
+        padding: 1rem;
+    }
+
+    .sub-top-div1,
+    .sub-top-div2,
+    .sub-top-div3,
+    .sub-top-div4 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .medio-div-1,
+    .medio-div-2 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .medio-opcoes1,
+    .medio-opcoes2,
+    .medio-opcoes3 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .img {
+        width: 14rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
