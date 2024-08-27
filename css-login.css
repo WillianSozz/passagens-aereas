@@ -1,0 +1,163 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(250, 245, 245);
+    position: relative;
+    margin: 0;
+}
+
+
+strong {
+    color: rgb(0, 0, 255);
+}
+
+hr {
+    box-shadow: 1px 1px 3px rgb(109, 109, 109);
+}
+
+/*********************************************/
+
+
+.top-barra {
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: rgb(255, 238, 0);
+    padding: 1rem 5%;
+}
+
+.label-titulo{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    justify-content: center;
+    box-shadow: 1px 1px 3px rgb(109, 109, 109);
+    background-color: rgb(255, 238, 0);
+}
+
+.div-login{
+    text-align: center;
+    padding: 3rem;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px rgb(109, 109, 109);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.342);
+    
+}
+
+.checkbox{
+    margin: 10px;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgb(109, 109, 109);
+    opacity: 0.9;
+}
+
+.espaco-login{
+    opacity: 0;
+}
+
+.palavra-login{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+}
+
+.username{
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-color: rgb(231, 231, 231);
+    color: rgb(0, 0, 255);
+}
+
+.username::after{
+    border-color: blue;
+}
+
+.palavra-login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-botao {
+    width: 100%;
+    max-width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: yellow;
+    border: hidden;
+    font-weight: bold;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: background-color 1s;
+    box-shadow: 1px 1px 3px rgb(109, 109, 109);
+    
+}
+
+.top-botao:hover {
+    background-color: rgb(0, 0, 221);
+    color: white;
+}
+
+/*********************************************/
+
+
+.footer {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-endereco{
+    color: gray;
+    margin: 1rem;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+/*********************************************/
+
+
+@media (max-width: 768px) {
+    .login{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .label-titulo{
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .label-titulo-barra-sumir{
+        opacity: 0;
+    }
+
+}
